@@ -1,0 +1,115 @@
+/* h2 {
+    border: 2px solid black;
+    width: 100px;
+}
+a {
+    border: 2px solid blue;
+    width: 10000px;
+}
+.mixto {
+    border: 2px solid red;
+    display: inline-block;
+    width:  200px;
+    height: 200px;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+    color: white;
+}
+
+
+.padre{
+    
+    width: 750px;
+    height: 400px;
+    display: flex;
+    align-items:center;
+}
+
+.hijo1{
+   
+    width: 30%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: blue;
+}
+
+.hijo2{
+    
+    width: 70%;
+    height: 100%;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: blue;
+
+}
+
+.nieto1arriba{
+   
+    width: 90%;
+    height: 40%;
+  
+    background: white;
+}
+
+.nieto1abajo{
+    
+    width: 90%;
+    height: 40%;
+   
+    display: flex;
+    align-items: flex-end;
+    background: white;
+}
+
+.nietorojo{
+   
+    width: 90%;
+    height: 90%;
+   
+    background: red;
+}
+
+.nieto2arriba{
+    width: 90%;
+    height: 40%;
+   
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.nieto2abajo  {
+    
+    width: 90%;
+    height: 40%;
+   
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background: white;
+}
+
+
+
+
+.nietorojo2{
+   
+    width: 95%;
+    height: 90%;
+    
+    background: red;
+} 
